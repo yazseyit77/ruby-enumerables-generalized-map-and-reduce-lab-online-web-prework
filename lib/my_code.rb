@@ -1,2 +1,10 @@
 # Your Code Here
-map([1, 2, 3, -9]){|n| n * -1}
+def map(array)
+  new[]
+  i = 0
+  while i < array.length do
+    {|array[i]| array[i] * -1}
+  end
+  return new
+end
+
